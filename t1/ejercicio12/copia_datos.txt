@@ -1,0 +1,5 @@
+nombre juan
+edad 16
+deporte futbol
+curso 3 ESO
+pelo rubio
