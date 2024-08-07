@@ -1,6 +1,6 @@
 # Pasos ejercicio de copia de seguridad
 
-1. creamos un fichero donde pondremos el contenido que se llamara datos.txt
+1. creamos un fichero donde pondremos el contenido que queramos se llamara datos.txt
 2. definimos 2 variables que seran los ficheros
 
 ```php
