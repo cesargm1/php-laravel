@@ -9,7 +9,7 @@ if(file_exists($file)) {
     if(file_put_contents($file2,$contenido)){
         print 'El fichero se copio correctamente';
     } else{
-        print "el fichero no se copio correctamente";
+        print "El fichero no se copio correctamente";
     }
    
 }
