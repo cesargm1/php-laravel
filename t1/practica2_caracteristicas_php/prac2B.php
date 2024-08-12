@@ -12,7 +12,7 @@
 function multiplicar($n){
     for($i = 1; $i <= 10; $i++) {
         $resultado = $n * $i;
-        print "7x $i = $resultado <br>";
+        print "$n x $i = $resultado <br>";
     }
     
   }
