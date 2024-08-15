@@ -12,10 +12,11 @@ $tables = [1,2,3,4,5,6,7,8,9,10];
 $numbers = [1,2,3,4,5,6,7,8,9,10];
 
 foreach($tables as $table) {
-    print($table."<br>");
+    print($table . "<tr>" ."<br>");
 
     foreach($numbers as $number) {
        $resulult =  print($table * $number );
+       print("<td>"."<br>");
     }
 }
 ?>
