@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Reserva</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form action="mostrar.php" method="get">
+			<label>
+				Introduce tu nombre
+				<input name="name" type="text" placeholder="introduce tu nombre" />
+			</label>
+
+			<label>
+				Elige una marca de coche
+				<select name="brand" class="cars">
+					<option value="Elije una marca">Elije una marca</option>
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</label>
+			<section class="section">
+				<p>Elije un color:</p>
+
+				<label>
+					rojo
+					<input name="color" value="red" type="radio" />
+				</label>
+
+				<label>
+					azul
+					<input name="color" value="blue" type="radio" />
+				</label>
+
+				<label>
+					verde
+					<input name="color" value="green" type="radio" />
+				</label>
+			</section>
+
+			<button name="buy">comprar coche</button>
+		</form>
+	</body>
+</html>
