@@ -50,7 +50,7 @@
         <section>
             <?php
             if (isset($_GET['wizard']) && !empty($_GET['wizard'])) {
-                $wizard = $_GET['wizard'];
+                $wizards = $_GET['wizard'];
             } else {
                 $ErrorOption = "No selecionaste ninguna opcion por favor marca una";
 
@@ -115,15 +115,15 @@
 
         if (isset($_GET['send']) && !empty($_GET['wizard']) && !empty($_GET['name']) && !empty($_GET['card'])) {
             $name = $_GET['name'];
-            $wizard = $_GET['wizard'];
+            $wizards = $_GET['wizard'];
             $card = $_GET['card'];
 
 
             print "<p>tu Nombre es $name</p>";
 
 
-            foreach ($wizards as $wizard) {
-                print_r("<p>Enviaste esta carta a estos reyes magos $wizard</p>");
+            foreach ($wizards as $value) {
+                print_r("<p>Enviaste esta carta a estos reyes magos $value</p>");
             }
 
             print "<p>Aqui tienes la informacion de la carta para los reyes magos te manden un regolo $card</p>";
